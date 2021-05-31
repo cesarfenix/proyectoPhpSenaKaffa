@@ -1,0 +1,13 @@
+#box-registro-usuario{
+	background-color:rgba(80,80,80,0.8);
+	padding: 2rem;
+	border-radius: 6%;
+	color: #fff;
+}
+#tituloregistro{
+	text-align: center;
+	font-weight: bold; 
+	font-size: 30px; 
+	color: #fff;
+	text-shadow: 0px 0px 10px #000;
+	}
