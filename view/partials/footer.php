@@ -1,8 +1,8 @@
 <div class="container">
 <footer class="bg-light">
         <div class="container" style="background-color: #448AF5">
-            <hr><p class="text-center"><a href="#"><b>Apuestas</b></a><br>
-            <a href="#"><b>Reglas</b></a> <br><a href="#"><b>Escribenos</b></a></p></div></footer>
+            <hr><p class="text-center"><a href="#"><b>Contactanos</b></a><br>
+            <a href="#"><b>Politicas</b></a> <br><a href="#"><b>XXXXXX</b></a></p></div></footer>
         </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

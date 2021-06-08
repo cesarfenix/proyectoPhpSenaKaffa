@@ -4,7 +4,6 @@
 	{
 		public $id;
 		public $identificacion;
-		public $email;
 		public $password;
 		public $nombre;
 		public $apellido;
@@ -12,35 +11,39 @@
 		public $direccion;
 		public $telefono;
 		public $telefono_auxiliar;
+		public $email;	
+		
 		
 		
 		public function save(){
 			$this->abrir();
-			$consulta = $this->conexion->prepare("INSERT INTO usuarios VALUES (null, ?, ?, md5(?), ?, ?, ?, ?, ?, ?)");
+			$consulta = $this->conexion->prepare("INSERT INTO usuarios VALUES (null, ?, md5(?), ?, ?, ?, ?, ?, ?, ?)");
 			$consulta->bindParam(1, $this->identificacion);
-			$consulta->bindParam(2, $this->email);
-			$consulta->bindParam(3, $this->password);
-			$consulta->bindParam(4, $this->nombre);
-			$consulta->bindParam(5, $this->apellido);
-			$consulta->bindParam(6, $this->rol);
-			$consulta->bindParam(7, $this->direccion);
-			$consulta->bindParam(8, $this->telefono);
+			$consulta->bindParam(2, $this->password);
+			$consulta->bindParam(3, $this->nombre);
+			$consulta->bindParam(4, $this->apellido);
+			$consulta->bindParam(5, $this->rol);
+			$consulta->bindParam(6, $this->direccion);
+			$consulta->bindParam(7, $this->telefono);
+			$consulta->bindParam(8, $this->telefono_auxiliar);
+			$consulta->bindParam(9, $this->email);
 			$consulta->execute();
 
 			$filas = $consulta->rowCount();
 			$this->cerrar();
 			return $filas;
 		}
+		
 		public function all(){
 			$this->abrir();
-			$consulta = $this->conexion->prepare("SELECT equipos.*, municipios.nombre AS n_municipio FROM equipos INNER JOIN municipios ON equipos.municipio=municipios.id");
+			$consulta = $this->conexion->prepare("SELECT * FROM usuarios;");
 			$consulta->setFetchMode(PDO::FETCH_OBJ);
 			$consulta->execute();
-			$equipos = $consulta->fetchAll();
+			$usuario = $consulta->fetchAll();
 			$this->cerrar();
-			return $equipos;
+			return $usuario;
 		}
-
+/*
 	public function find($id){
 			$this->abrir();
 			$consulta = $this->conexion->prepare("SELECT * FROM equipos WHERE id=?");
@@ -90,6 +93,7 @@
 				return null;
 			}
 		}
+		*/
 	}
 		
 	 ?>

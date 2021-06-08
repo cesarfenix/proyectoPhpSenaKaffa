@@ -15,7 +15,7 @@
         <div class="container">
         <!-- As a link -->
           <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">Torneo</a>
+            <a class="navbar-brand" href="#">Inicio</a>
           </nav>
         </div>
     </header>

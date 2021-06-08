@@ -16,9 +16,9 @@
 		}
 		abstract public function save();
 		abstract public function all();
-		abstract public function find($id);
-		abstract public function update();
-		abstract public function delete();
+		//abstract public function find($id);
+		//abstract public function update();
+		//abstract public function delete();
 	}
 	
 	 

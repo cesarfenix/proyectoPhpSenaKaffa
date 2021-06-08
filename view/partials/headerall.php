@@ -7,57 +7,25 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-      <title>Hello, world!</title>
-      </head>
-  <body>
-    <header>
-            <div class="container">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <a class="navbar-brand" href="../index.php">Torneo</a>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Municipios
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="../municipios/index.php">Ver Municipios</a></li>
-            <li><a class="dropdown-item" href="../municipios/create.php">Crear municipio</a></li>
-            </ul>
-        </li>
-      </ul>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Equipos
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="../equipos/index.php">Ver Equipos</a></li>
-            <li><a class="dropdown-item" href="../equipos/create.php">Crear equipos</a></li>
-            </ul>
-        </li>
-      </ul>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Jugadores
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="../jugadores/index.php">Ver jugadores</a></li>
-            <li><a class="dropdown-item" href="../jugadores/create.php">Crear jugadores</a></li>
-            </ul>
-          </li>
-      </ul>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Posiciones
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../posiciones/index.php">Ver posiciones</a>
-              <a class="dropdown-item" href="../posiciones/create.php">Crear posiciones</a>
-              </div>
-        </li>
-      </ul>
-      <span class="mx-2"><?= $_SESSION["usuario"] ?></span>
-      <a class="btn btn-outline-success my-2 my-sm-0" href="../cerrarsesion.php">Cerrar sesión</a>
-      </div>
-  </nav>
-</div>
-</header>
+    <title>Hello, world!</title>
+    </head>
+    <body>
+      <header>
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <a class="navbar-brand" href="../index.php">Inicio</a>
+              <a class="dropdown-item" href="../view/usuarios/nosotros.php">Nosotros</a>   
+              <a class="dropdown-item" href="#">Nuestos servicios</a>
+              <a class="dropdown-item" href="#">Reseñas</a>
+              <a class="dropdown-item" href="#">Contactanos</a>
+              <a class="dropdown-item" href="#">Reseñas</a>
+              <a class="nav-link active" aria-current="page" href="view/logins/login.html">Iniciar Sessión</a>
+              <a class="nav-link active" aria-current="page" href="view/usuario/registro.html">Registrarse</a>
+              <span class="mx-2"><?= $_SESSION["usuario"] ?></span>
+              <a class="btn btn-outline-success my-2 my-sm-0" href="../cerrarsesion.php">Cerrar sesión</a>
+            </div>
+          </nav>
+       </header>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
