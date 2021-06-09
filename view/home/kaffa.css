@@ -1,0 +1,667 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+/* contenedor de la imagen principal inicio*/
+.principal {
+	background-image: url("https://images7.alphacoders.com/721/721191.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 881px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+/* logo de kaffa*/
+.logoMarron {
+	margin-left: 540px;
+	margin-top: 100px;
+	position: absolute;
+	height: 240px;
+}
+
+/*texto principal bajo el logo de kaffa*/
+.titulo {
+	z-index: 2;
+	color: rgb(206, 135, 28);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 450px;
+	margin-left: 210px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.2em rgb(34, 34, 34);
+}
+
+/*subtitulo bajo el logo de kaffa*/
+.subtitulo {
+	z-index: 2;
+	color: rgb(255, 255, 255);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 496px;
+	margin-left: 405px;
+	position: absolute;
+}
+
+/*texto al final de la imagen principal*/
+.direccion {
+	z-index: 2;
+	color: rgb(255, 255, 255);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 815px;
+	margin-left: 500px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.2em rgb(20, 20, 20);
+}
+
+/*copyright sale al final de la imagen principal*/
+footer {
+	z-index: 2;
+	color: rgb(255, 255, 255);
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: center;
+	margin-top: 848px;
+	margin-left: 520px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.3em rgb(34, 34, 34);
+}
+
+/*contenedor principal de la segunda imagen quienes somos*/
+.somos {
+	background-image: url("https://images3.alphacoders.com/220/220047.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 881px;
+	width: 100%px;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+	min-height:500px;
+}
+
+/*titulo ¿quienes somos y que hacemos?*/
+.quienesSomos {
+	z-index: 2;
+	color: rgb(255, 255, 255);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 230px;
+	margin-left: 50px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+}
+
+/*contenedor del texto quienes somos*/
+.texto1 {
+	z-index: 2;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: center;
+	position: absolute;
+	width: 460px;
+	height: 380px;
+	background: rgb(61, 61, 61, 0.6);
+	margin-top: 320px;
+	margin-left: 120px;
+	padding: 8px;
+}
+
+/*texto quienes somos y que hacemso*/
+.texto1 p {
+	font-size: 21px;
+	text-align: justify;
+}
+
+/*contenedor titulo nuestros productos*/
+.productos {
+	height: 120px;
+	width: 100%px;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*titulo nuestros productos*/
+.productos h3 {
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	margin-top: 34px;
+	margin-left: 100px;
+	color: rgb(206, 135, 28);
+}
+
+/*contenedor tercera parte de la pagina producto cafe tostado*/
+.cafeTostado {
+	background-image: url("https://images5.alphacoders.com/332/332047.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 881px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*titulo cafe tostado tradicional*/
+.cafeTostado h2 {
+	color: rgb(255, 255, 255);
+	font-size: 48px;
+	text-shadow: 0.1em 0.1em 0.2em rgb(34, 34, 34);
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+/*texto kaffa y presentacion*/
+.cafeTostado label {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 160px;
+	padding: 5px;
+	text-shadow: 0.1em 0.1em 0.1em rgb(255, 253, 253);
+}
+
+/*contenedor gris de la descripcion del perfil de taza*/
+.perfilTostado {
+	z-index: 2;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	position: absolute;
+	width: 360px;
+	height: 480px;
+	background: rgba(32, 32, 32, 0.8);
+	margin-top: 250px;
+	margin-left: 140px;
+	padding: 12px;
+}
+
+/*Logo pequeño kaffa*/
+.perfilTostado img {
+	width: 80px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+/*titulo perfil taza*/
+.perfilTostado h3 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 22px;
+	color: rgb(206, 135, 28);
+	text-shadow: 0.1em 0.1em 0.1em rgb(7, 7, 7);
+}
+
+/*parrafo con datos del perfil taza*/
+.perfilTostado p {
+	position: absolute;
+	margin-top: 70px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+/*contenedor principal cuarta parte cafe honey*/
+.cafeHoney {
+	background-image: url("https://images6.alphacoders.com/361/361708.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 881px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*titulo cafe honey especial*/
+.cafeHoney h2 {
+	color: rgb(255, 255, 255);
+	font-size: 48px;
+	text-shadow: 0.1em 0.1em 0.2em rgb(34, 34, 34);
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+/*texto kaffa y presentacion*/
+.cafeHoney label {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 160px;
+	padding: 5px;
+	text-shadow: 0.1em 0.1em 0.1em rgb(255, 253, 253);
+}
+
+/*contenedor gris de la descripcion del perfil de taza*/
+.perfilHoney {
+	z-index: 2;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	position: absolute;
+	width: 360px;
+	height: 480px;
+	background: rgba(32, 32, 32, 0.8);
+	margin-top: 250px;
+	margin-left: 140px;
+	padding: 12px;
+}
+
+/*Logo pequeño kaffa*/
+.perfilHoney img {
+	width: 80px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+/*titulo perfil taza*/
+.perfilHoney h3 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 22px;
+	color: rgb(206, 135, 28);
+	text-shadow: 0.1em 0.1em 0.1em rgb(7, 7, 7);
+}
+
+/*parrafo con datos del perfil taza*/
+.perfilHoney p {
+	position: absolute;
+	margin-top: 70px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+/*contenedor nuestra marca*/
+.marca {
+	background: rgb(17, 17, 17);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 440.5px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*titulo kaffa specialty coffee*/
+.marca h1 {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 80px;
+	font-size: 30px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*titulo nuestra marca*/
+.marca h2 {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 190px;
+	font-size: 24px;
+	color: rgb(206, 135, 28);
+	padding-bottom: 5px;
+}
+
+/*parrafo nuestra marca*/
+.marca p {
+	color: white;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 40px;
+	font-size: 22px;
+}
+/*logo marron*/
+.marcaMarron {
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	margin-top: 60px;
+	margin-left: 920px;
+}
+
+/*logo verde*/
+.marcaVerde {
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	margin-top: 60px;
+	margin-left: 640px;
+}
+/*boton contactanos*/
+.marca input {
+	position: absolute;
+	background: rgb(206, 135, 28);
+	height: 50px;
+	width: 120px;
+	font-size: 18px;
+	margin-top: 360px;
+	margin-left: 430px;
+}
+
+/*contenedor que nos diferencia*/
+.diferencia {
+	background: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 440.5px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*imagen de los capuchinos*/
+.diferencia img {
+	position: absolute;
+	height: 440.5px;
+	width: 631.5px;
+	margin-left: 718px;
+}
+
+/*titulo que nos diferencia*/
+.diferencia h3 {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 80px;
+	font-size: 30px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*parrafo que nos diferencia*/
+.diferencia p {
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 40px;
+	font-size: 22px;
+}
+
+/*boton contactanos*/
+.diferencia input {
+	position: absolute;
+	background: rgb(206, 135, 28);
+	height: 50px;
+	width: 120px;
+	font-size: 18px;
+	margin-top: 360px;
+	margin-left: 420px;
+}
+
+/*contenedor Origen*/
+.fortuna {
+	height: 881px;
+	width: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	background: rgb(243, 242, 242);
+}
+
+/*titulo origen kaffa specialty coffee*/
+.fortuna h2 {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 34px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*titulo finca la fortuna*/
+.fortuna h3 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 170px;
+	font-size: 30px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*parrafo finca la fortuna*/
+.fortuna p {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 40px;
+	font-size: 22px;
+}
+
+/*contenedor slayer*/
+.origen {
+	height: 715px;
+	width: 631.5px;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	margin-left: 700px;
+	margin-top: 90.5px;
+}
+
+/*lista slayer*/
+.origen ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	height: 100%;
+	animation: cambio 30s infinite alternate;
+	animation-timing-function: ease-in-out;
+}
+
+.origen li {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+/*imagenes slayer*/
+.origen img {
+	width: 100%;
+	height: 100%;
+}
+
+/*efecto y animacion del slayer*/
+@keyframes cambio {
+	0% {
+		margin-left: 0;
+	}
+	15% {
+		margin-left: 0;
+	}
+	20% {
+		margin-left: -100%;
+	}
+	40% {
+		margin-left: -100%;
+	}
+	45% {
+		margin-left: -200%;
+	}
+	60% {
+		margin-left: -200%;
+	}
+	65% {
+		margin-left: -300%;
+	}
+	80% {
+		margin-left: -300%;
+	}
+	85% {
+		margin-left: -400%;
+	}
+	100% {
+		margin-left: -400%;
+	}
+}
+
+/*Contenedor google maps*/
+.mapa {
+	width: 580px;
+	height: 510px;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+
+/*contenedor principal contactanos*/
+.contactanos {
+	position: relative;
+	height: 881px;
+	width: 1290;
+	background-image: url("https://media.gq.com.mx/photos/5be9c744f0f5ac62aa143d89/master/w_3000,c_limit/iel_cafe_organico_es_mejor_para_ti__9484.jpg");
+	background-size: cover;
+	font-family: "Source Sans Pro", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+/*contenedor email*/
+.email {
+	position: absolute;
+	height: 881px;
+	width: 50%;
+	background: rgb(10, 10, 10);
+}
+
+/*titulo email h3*/
+.email h3 {
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 230px;
+	font-size: 40px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*correo electronico*/
+.correo {
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 100px;
+	font-size: 22px;
+	color: blanchedalmond;
+}
+
+/*titulo direccion*/
+.email h4 {
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 190px;
+	font-size: 40px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*direccion*/
+.direccionOficina {
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 70px;
+	font-size: 20px;
+	color: blanchedalmond;
+}
+
+/*titulo siguemos*/
+.email h5 {
+	position: absolute;
+	margin-top: 480px;
+	margin-left: 190px;
+	font-size: 40px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+/*iconos redes sociales*/
+.iconoFacebook {
+	position: absolute;
+	border-radius: 70%;
+	height: 50px;
+	width: 50px;
+	margin-top: 580px;
+	margin-left: 205px;
+}
+
+.iconoInstagram {
+	position: absolute;
+	border-radius: 28%;
+	height: 50px;
+	width: 50px;
+	margin-top: 580px;
+	margin-left: 275px;
+}
+
+.iconoTwitter {
+	position: absolute;
+	border-radius: 70%;
+	height: 50px;
+	width: 50px;
+	margin-top: 580px;
+	margin-left: 345px;
+}
+
+/*efecto y animacion del slayer*/
+.telefonos {
+	position: absolute;
+	height: 881px;
+	width: 53%;
+	background: rgba(20, 20, 20, 0.8);
+	margin-left: 630px;
+}
+
+.telefonos h3 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 170px;
+	font-size: 40px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+	text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+}
+
+.telefonos h4 {
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 200px;
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	padding-top: 8px;
+	text-shadow: 0.1em 0.1em 0.1em rgb(128, 89, 31);
+}
+
+.telefonos p {
+	position: absolute;
+	margin-top: 540px;
+	margin-left: 130px;
+	font-size: 28px;
+	color: rgb(206, 135, 28);
+	padding-top: 8px;
+}
+
+.contactanos footer {
+	z-index: 2;
+	color: rgb(255, 255, 255);
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: left;
+	margin-top: 848px;
+	margin-left: 520px;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.3em rgb(34, 34, 34);
+}
+
+footer img {
+	position: fixed;
+	right: 30px;
+	bottom: 40px;
+	width: 70px;
+	z-index: 1000;
+}

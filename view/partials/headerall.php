@@ -7,22 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>Café de origen Colombiano - Kaffa specialty coffe</title>
     </head>
     <body>
       <header>
-             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <a class="navbar-brand" href="../index.php">Inicio</a>
               <a class="dropdown-item" href="../view/usuarios/nosotros.php">Nosotros</a>   
-              <a class="dropdown-item" href="#">Nuestos servicios</a>
+              <a class="dropdown-item" href="../view/usuarios/nuestraMarca.php">Nuestra marca</a>
+              <a class="dropdown-item" href="../view/usuarios/nuestrosProductos.php">Nuestros productos</a>
+              <a class="dropdown-item" href="../view/usuarios/contactanos.php">Contactanos</a>
               <a class="dropdown-item" href="#">Reseñas</a>
               <a class="dropdown-item" href="#">Contactanos</a>
-              <a class="dropdown-item" href="#">Reseñas</a>
               <a class="nav-link active" aria-current="page" href="view/logins/login.html">Iniciar Sessión</a>
               <a class="nav-link active" aria-current="page" href="view/usuario/registro.html">Registrarse</a>
               <span class="mx-2"><?= $_SESSION["usuario"] ?></span>
-              <a class="btn btn-outline-success my-2 my-sm-0" href="../cerrarsesion.php">Cerrar sesión</a>
+              <a class="btn btn-outline-success my-4 my-sm-0" href="../cerrarsesion.php">Cerrar sesión</a>
             </div>
           </nav>
        </header>

@@ -4,36 +4,45 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="style.css" type="text/css" rel="stylesheet" media />
-
-    <title></title>
+    <link href="../home/kaffa.css" type="text/css" rel="stylesheet" media />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <!--<link href="../home/kaffa.css" type="text/css" rel="stylesheet" media />-->
+    <?php 
+    include("../../common-style.php");
+     ?>
+     
+    <title>Café de origen Colombiano - Kaffa specialty coffe</title>
+    <link rel="icon" href="../../imagenes/logoMarron.png" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../../imagenes/logo.jpeg" alt="" width="50" height="34" class="d-inline-block align-text-top">
-      Nosotros
-    </a>
-  </div>
-</nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../../imagenes/logo.jpeg" alt="" width="50" height="34" class="d-inline-block align-text-top">      Nosotros
+          </a>
+        </div>
+      </nav>
     </header>
     <section>
-      <div class="container-principal">
-        <div class="contenedor1">
-      <p><strong>kaffa speciality coffe</strong>, Es una Plataforma Que Se enfoca en el marketing, Comercializacion, e interaccion del Comercio cafetero para Todos. esta plataforma ha sido desarrollada, por un equipo de profesionales provenientes del eje cafetero, enamorados de su región, de sus Hermosos Paisajes Cafeteros, de su gente Amable y servicial, y de igual forma convencidos de el potencial que el comercio electrocnico tiene y las oportunidades que este brinda a todos los comerciantes de nuestra localidad.
-Aqui no solo podras encontrar todo lo que necesitas, a los mejores precios, la mejor calidad, Sino que tambien tendra la mejor atencion y la posibilidad de contactar directamente con los Productores para ser asesorado de primera Mano.</p>
-    </section>
-    </div>
-    <figure>
-      <img src="../../imagenes/nosotros.jpg"alt="vista cafetera">
-      <figcaption> Vista cafetera</figcaption>
-    </figure>
-    </div>
+      <div class="somos">
+        <b><h3 class="quienesSomos">¿Quienes somos y que hacemos?</h3></b>
+        <div class="texto1">
+          <p><br />
+            <b> Somos una micro empresa Quindiana.</b> <br />
+            <br />
+            Cafeteros por tradicion, expertos en produccion de cafe gourmet especial. realizamos todo el
+            proceso de cultivo, beneficio y aprovechamiento del cafe, seleccionando la mejor semilla para la
+            siembra, aplicamos estandares de alta calidad en el cuidado, recoleccion y beneficio del cafe,
+            presentando almendra selecta para la tostion, resaltando el aroma y sabor de nuestro cafe logrando
+            una especialidad que solo la dedicacion y nuestra maestria puede generar. Con toda la calidad que
+            caracteriza el cafe colombiano.
+          </p>
+        </div>
+      </div>     
+    </section>    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
