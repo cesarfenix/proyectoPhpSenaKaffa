@@ -69,12 +69,11 @@
 			$consulta->execute();
 			$logins = $consulta->fetchAll();
 			$this->cerrar();
-			if (count($logins > 0)) {
+			if (count($logins) > 0) {
 				return $logins[0];
-			}
-			else{
-				return null;
-			}
+			} else {
+				return  null;
+			}  
 		}
 	}
 		
