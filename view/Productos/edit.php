@@ -23,9 +23,9 @@
                     <input type="text" class="form-control" id="nombre" name="nombre" value="<?= $producto->nombre ?>">
                 </div>
                 <div class="mb-3">
-                    <label class="fs-2" for="descricion" class="form-label">Descripcion del producto</label>
+                    <label class="fs-2" for="descripcion" class="form-label">Descripcion del producto</label>
                     <i class="fas fa-chess-board"></i>
-                    <input type="text" class="form-control" id="descricion" name="descricion" value="<?= $producto->descripcion ?>">
+                    <input type="text" class="form-control" id="descripcion" name="descripcion" value="<?= $producto->descripcion ?>">
                 </div>
                 <div class="mb-3">
                     <label class="fs-2" for="precio" class="form-label">Precio del producto</label>

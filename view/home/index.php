@@ -1,4 +1,4 @@
-  <style>
+   <style>
     body {
       background-image: url(https://images7.alphacoders.com/721/721191.jpg);
       background-size: cover;
