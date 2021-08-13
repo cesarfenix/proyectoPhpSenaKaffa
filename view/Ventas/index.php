@@ -19,26 +19,27 @@
             <br>
         </div>
     <?php } ?>
-    <a role="button" href="create.php" class="btn btn-success btn-lg" style="margin-left: 4rem;">Agregar Producto</a>
+    <a role="button" href="create.php" class="btn btn-success btn-lg" style="margin-left: 4rem;">Agregar venta</a>
     <br>
     <h2 style="text-align:center; color: #fff;">Lista de ventas</h2>
     <br>
-    <div class="container">
-        <div class="container text-center">
+    <div>
+        <div class="text-center" style="margin-left:3%;margin-right:3%;">
             <table class="table table-striped table-hover">
                 <thead>
                     <tr class="table-dark text-warning">
-                        <th class="fs-3" scope="col">#</th>
-                        <th class="fs-3" scope="col">Fecha de compra</th>
-                        <th class="fs-3" scope="col">estado</th>
-                        <th class="fs-3" scope="col">Fecha de entrega</th>
-                        <th class="fs-3" scope="col">Fecha de envio</th>
-                        <th class="fs-3" scope="col">Precio de venta</th>
-                        <th class="fs-3" scope="col">Costo de envio</th>
-                        <th class="fs-3" scope="col">Dirección de entrega</th>
-                        <th class="fs-3" scope="col">Observación</th>
-                        <th class="fs-3" scope="col">Id del producto</th>
-                        <th class="fs-3" scope="col">Id de la venta</th>
+                        <th >#</th>
+                        <th >Fecha de compra</th>
+                        <th >estado</th>
+                        <th >Fecha de entrega</th>
+                        <th >Fecha de envio</th>
+                        <th >Precio de venta</th>
+                        <th >Costo de envio</th>
+                        <th >Dirección de entrega</th>
+                        <th >Observación</th>
+                        <th >Id del producto</th>
+                        <th>Id de la venta</th>
+                        <th>Aciones</th>
                     </tr>
                 </thead>
                 <tbody>

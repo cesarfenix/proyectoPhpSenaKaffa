@@ -17,17 +17,17 @@
     public function save()
     {
         $this->abrir();
-        $consulta = $this->conexion->prepare("INSERT INTO detalle_ventas VALUES(null,? ,? ,?,?,?,? ,? ,?,?,?)");
+        $consulta = $this->conexion->prepare("INSERT INTO detalle_ventas VALUES(null, ? ,? ,?, ?, ? , ? ,? ,? ,? ,?)");
         $consulta->bindParam(1, $this->fecha_compra);
         $consulta->bindParam(2, $this->estado);
         $consulta->bindParam(3, $this->fecha_entrega);
         $consulta->bindParam(4, $this->fecha_envio);
         $consulta->bindParam(5, $this->precio_venta);
-        $consulta->bindParam(2, $this->costo_envio);
-        $consulta->bindParam(3, $this->direccion_entrega);
-        $consulta->bindParam(3, $this->observaciones);
-        $consulta->bindParam(4, $this->producto_id);
-        $consulta->bindParam(5, $this->venta_id);
+        $consulta->bindParam(6, $this->costo_envio);
+        $consulta->bindParam(7, $this->direccion_entrega);
+        $consulta->bindParam(8, $this->observaciones);
+        $consulta->bindParam(9, $this->producto_id);
+        $consulta->bindParam(10, $this->venta_id);
         $consulta->execute();
         $filas = $consulta->rowCount();
         $this->cerrar();

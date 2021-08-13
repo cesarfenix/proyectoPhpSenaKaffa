@@ -30,7 +30,7 @@
                     <i class="far fa-list-alt"></i>
                     <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado">
         -->
-                    <select class="form-select" aria-label="estado" id="select" name="select" required>
+                    <select class="form-select" aria-label="estado" id="estado" name="estado" required>
                         <option selected>Seleccione un estado</option>
                         <option value="1">Aprobado</option>
                         <option value="2">Anulado</option>
@@ -71,12 +71,12 @@
                 <div class="mb-3">
                     <label class="fs-2" for="producto_id " class="form-label">Id del producto </label>
                     <i class="far fa-money-bill-alt"></i>
-                    <input type="number" class="form-control" id="producto_id " name="producto_id " placeholder=" Id del producto">
+                    <input type="number" class="form-control" id="producto_id" name="producto_id" placeholder=" Id del producto">
                 </div>
                 <div class="mb-3">
-                    <label class="fs-2" for="venta_id  " class="form-label">Id de la venta </label>
+                    <label class="fs-2" for="venta_id" class="form-label">Id de la venta </label>
                     <i class="far fa-money-bill-alt"></i>
-                    <input type="number" class="form-control" id="venta_id  " name="venta_id  " placeholder=" Id de la venta">
+                    <input type="number" class="form-control" id="venta_id" name="venta_id" placeholder=" Id de la venta">
                 </div>
                 <div class="mb-3">
                     <button class="btn btn-primary btn-lg" type="submit">Registrar venta</button>
