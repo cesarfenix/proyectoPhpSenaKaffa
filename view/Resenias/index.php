@@ -48,7 +48,7 @@
                             <td><?= $resenia->observaciones ?></td>
                             <td><?= $resenia->fecha ?></td>
                             <td><?= $resenia->id ?></td>
-                            <td><?= $resenia->usuarios ?></td>
+                            <td><?= $resenia->usuario_id ?></td>
                             <td>
                                 <a class="btn btn-outline-warning" href="edit.php?id=<?= $resenia->id ?>" role=" button">
                                     <i class="fas fa-pen"></i></a>

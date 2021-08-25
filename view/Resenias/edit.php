@@ -15,27 +15,27 @@
                 <div class="mb-3">
                     <label class="fs-2" for="calificacion" class="form-label">Calificación</label>
                     <i class="fas fa-user-shield"></i>
-                    <input type="number" class="form-control" id="calificacion" name="calificacion" value="<?= $producto->codigo ?>">
+                    <input type="number" class="form-control" id="calificacion" name="calificacion" value="<?= $resenia->calificacion ?>">
                 </div>
                 <div class="mb-3">
                     <label class="fs-2" for="observaciones" class="form-label">Observaciones</label>
                     <i class="fas fa-chess-board"></i>
-                    <input type="text" class="form-control" id="observaciones" name="observaciones" value="<?= $producto->nombre ?>">
+                    <input type="text" class="form-control" id="observaciones" name="observaciones" value="<?= $resenia->observaciones ?>">
                 </div>
                 <div class="mb-3">
                     <label class="fs-2" for="fecha" class="form-label">Fecha</label>
                     <i class="fas fa-chess-board"></i>
-                    <input type="date" class="form-control" id="fecha" name="fecha" value="<?= $producto->descripcion ?>">
+                    <input type="date" class="form-control" id="fecha" name="fecha" value="<?= $resenia->fecha ?>">
                 </div>
                 <div class="mb-3">
                     <label class="fs-2" for="producto_id" class="form-label">Producto id</label>
                     <i class="fas fa-chess-board"></i>
-                    <input type="number" class="form-control" id="producto_id" name="producto_id" value="<?= $producto->id ?>">
+                    <input type="number" class="form-control" id="producto_id" name="producto_id" value="<?= $resenia->producto_id ?>">
                 </div>
                 <div class="mb-3">
                     <label class="fs-2" for="usuario_id" class="form-label">Usuario id</label>
                     <i class="fas fa-chess-board"></i>
-                    <input type="number" class="form-control" id="usuario_id" name="usuario_id" value="<?= $usuario->id ?>">
+                    <input type="number" class="form-control" id="usuario_id" name="usuario_id" value="<?= $resenia->$usuario_id ?>">
                 </div>
                 <div class="mb-3">
                     <button class="btn btn-primary btn-lg" type="submit">Actualizar</button>
