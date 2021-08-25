@@ -61,6 +61,11 @@
                 Ventas
               </a>
             </li>
+            <li class="nav-item dropdown fs-2">
+              <a class="nav-link" href="../Resenias/index.php" id="navbarDropdown" role="button"  aria-expanded="false">
+                Reseñas de productos
+              </a>
+            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0"></form>
           <span class="mx-3"><?= $_SESSION["nickname"] ?></span>
